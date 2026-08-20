@@ -16,13 +16,14 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
   min-height: 100vh;
 }
 
 main {
   background-color: #ffffff;
   border-radius: 20px;
-  margin: 230px 560px;
+  box-shadow: 0px 25px 25px 0px rgba(0, 0, 0, 0.0477);
 }
 
 img {
@@ -37,7 +38,6 @@ h1 {
   font-weight: 700;
   color: var(--dark-blue);
   line-height: 1.2;
-  display: flex;
   padding-bottom: 16px;
 }
 
@@ -47,9 +47,8 @@ p {
   color: var(--grayish-blue);
   line-height: 1.4;
   letter-spacing: 0.2px;
-  display: flex;
 }
 
 .text {
-  margin: 24px 16px 40px 16px;
+  margin: 0 16px 40px 16px;
 }
